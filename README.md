@@ -2,5 +2,4 @@
 
 ## AEM HTTP Foundation
 
-A shared HTTP foundation for AEM integrations.<br>
-Use it when your AEM project calls APIs and you don’t want to solve HTTP and auth again. → [Read more](https://aem.kttn.org/aem-http-foundation/)
+Shared outbound HTTP foundation for AEM as a Cloud Service. Pooling, retries, TLS, and OAuth client credentials out of the box. → [Read more](https://aem.kttn.org/aem-http-foundation/)

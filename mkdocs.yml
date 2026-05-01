@@ -1,9 +1,11 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: KTTN AEM Libraries
 site_url: https://aem.kttn.org/
+site_description: Documentation hub for open-source AEM libraries — reusable solutions for HTTP, authentication, and integration patterns in Adobe Experience Manager projects.
+site_author: Florian Brunswicker
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: docs/overrides
   logo: assets/logo.svg
   favicon: assets/logo.svg
   # Material loads these from Google Fonts; avoid duplicating via @import in extra.css.
@@ -22,8 +24,8 @@ extra:
 extra_css:
   - stylesheets/extra.css
 hooks:
-  - scripts/hooks/hooks.py
-  - scripts/hooks/sitemap_index.py
+  - docs/hooks/hooks.py
+  - docs/hooks/sitemap_index.py
 plugins:
   - search
   - privacy
