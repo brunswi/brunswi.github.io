@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: KTTN AEM Libraries
 site_url: https://aem.kttn.org/
-repo_url: https://github.com/brunswi/brunswi.github.io
 theme:
   name: material
   custom_dir: overrides
